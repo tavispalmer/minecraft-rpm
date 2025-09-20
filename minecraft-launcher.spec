@@ -4,13 +4,12 @@ Release:        1%{?dist}
 Summary:        Official Minecraft Launcher
 
 License:        All rights reserved
-URL:            https://www.minecraft.net/
+URL:            https://minecraft.net/
 Source0:        https://launcher.mojang.com/download/Minecraft.deb
 
 BuildRequires:  dpkg
 
 %description
-Official Minecraft Launcher
 
 
 %prep
@@ -21,9 +20,3 @@ Official Minecraft Launcher
 %{_bindir}/minecraft-launcher
 %{_datadir}/applications/minecraft-launcher.desktop
 %{_datadir}/icons/hicolor/symbolic/apps/minecraft-launcher.svg
-
-
-
-%changelog
-* Sun Jul 27 2025 Tavis Palmer
-- 
